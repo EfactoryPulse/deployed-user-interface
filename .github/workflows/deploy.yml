@@ -3,6 +3,7 @@ on:
 
 jobs:
     deploy_the_site:
+        name: Deploy the site
         runs-on: ubuntu-latest
         steps:
             - name: Checkout the code
