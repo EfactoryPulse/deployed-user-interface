@@ -8,7 +8,7 @@ jobs:
             - name: Checkout the code
               uses: actions/checkout@v4
               with:
-                repository: JackMead/goal-tracker
+                repository: EfactoryPulse/iot-platform
                 path: src
             - name: Checkout this repo
               uses: actions/checkout@v4
